@@ -1,0 +1,222 @@
+[
+    {
+        "Id": "2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164",
+        "Created": "2020-10-31T13:51:26.833046114Z",
+        "Path": "/entrypoint.sh",
+        "Args": [
+            "telegraf"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 18317,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2020-10-31T13:51:27.409926582Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:7606d5ee069fcab20036c4bd521e1133ac8ca31e44f7d241f0d83a36315d6ca6",
+        "ResolvConfPath": "/var/lib/docker/containers/2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164/hostname",
+        "HostsPath": "/var/lib/docker/containers/2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164/hosts",
+        "LogPath": "/var/lib/docker/containers/2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164/2dd9808a37456c9ba6ea8b5d496e03c285fa70bf87d75abbdf95cbae712d8164-json.log",
+        "Name": "/telegraf",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/proc:/host/proc:ro",
+                "/var/run/docker.sock:/var/run/docker.sock:ro",
+                "/etc/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "monitoring",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "shareable",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 1073741824,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 2147483648,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/77bb8844c9c3c3cf08aa84b24857fcfdf6ba71da17e7b0eb97f1715b765a21ca-init/diff:/var/lib/docker/overlay2/0e6561963e711198f19766ed9400a7702a2eb20cf7c849cc3fa872b8c0f306c9/diff:/var/lib/docker/overlay2/93e91839ab6063e213a6297e585f6d695ee0c2243a0306c7d4cbd19b5fd34dab/diff:/var/lib/docker/overlay2/9415b79aa2d39d5e24d505adb477fc1af37cc951c89d2f9252fb9004ada6d0ae/diff:/var/lib/docker/overlay2/9dec6ee512e8a4b6ce5ca2bc7b2d56cddfe253b8bdde7b92fdeba6e3cc472603/diff:/var/lib/docker/overlay2/392cd8b1f87b5ae4690527bb027b517a223eb80354e6a47a55c2c4ad4009b59d/diff:/var/lib/docker/overlay2/39703d63f68dd8e40c9350587fd27e15d94395e08203331f30cd849531806fb1/diff:/var/lib/docker/overlay2/5ac57b422263dfddebb3ae46fcf7782a56d884cdddde68c2577fe6f58114e6d2/diff",
+                "MergedDir": "/var/lib/docker/overlay2/77bb8844c9c3c3cf08aa84b24857fcfdf6ba71da17e7b0eb97f1715b765a21ca/merged",
+                "UpperDir": "/var/lib/docker/overlay2/77bb8844c9c3c3cf08aa84b24857fcfdf6ba71da17e7b0eb97f1715b765a21ca/diff",
+                "WorkDir": "/var/lib/docker/overlay2/77bb8844c9c3c3cf08aa84b24857fcfdf6ba71da17e7b0eb97f1715b765a21ca/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/etc/telegraf/telegraf.conf",
+                "Destination": "/etc/telegraf/telegraf.conf",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/proc",
+                "Destination": "/host/proc",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "2dd9808a3745",
+            "Domainname": "",
+            "User": "998:998",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8092/udp": {},
+                "8094/tcp": {},
+                "8125/udp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "HOST_PROC=/host/proc",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "TELEGRAF_VERSION=1.16.1"
+            ],
+            "Cmd": [
+                "telegraf"
+            ],
+            "ArgsEscaped": true,
+            "Image": "telegraf",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "c8bd79a804024765a7d317880ef252f04c752248133fe45989af6c652338d7d4",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8092/udp": null,
+                "8094/tcp": null,
+                "8125/udp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/c8bd79a80402",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "monitoring": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "2dd9808a3745"
+                    ],
+                    "NetworkID": "7cee0d3b9be6dd3777ab7eb67883156b2d6755d1bf0832e5abf34948ad3911df",
+                    "EndpointID": "09702f985c127279bd0fb7f3b8f953c9561fdc1f7ab72fcf6aa9cac6830a7170",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:12:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
