@@ -21,5 +21,6 @@ docker run -d --user 998:998 --name=telegraf \
       -v /etc/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro \
       telegraf
 
+# for exposing udp socket:
       #--expose=8094/udp \
       #-p 8094:8094/udp \
