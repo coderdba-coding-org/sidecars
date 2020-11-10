@@ -1269,7 +1269,10 @@
 
 
 # # Generic socket writer capable of handling multiple socket types.
-#[[outputs.socket_writer]]
+[[outputs.socket_writer]]
+  #address = "tcp://127.0.0.1:8094"
+  address = "tcp://192.168.40.91:8094"
+  data_format = "influx"
 #   ## URL to connect to
 #   # address = "tcp://127.0.0.1:8094"
 #   # address = "tcp://example.com:http"
@@ -7046,14 +7049,6 @@
 
 
 # # Generic socket listener capable of handling multiple socket types.
-[[inputs.socket_listener]]
-   #service_address = "udp4://localhost:8094"
-   #service_address = "udp://:8094"
-   service_address = "tcp://:8094"
-   #service_address = "tcp://192.168.40.91:8094"
-   #service_address = "tcp://0.0.0.0:8094"
-   data_format = "influx"
-
 # [[inputs.socket_listener]]
 #   ## URL to listen on
 #   # service_address = "tcp://:8094"
